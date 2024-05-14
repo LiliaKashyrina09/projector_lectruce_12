@@ -1,4 +1,4 @@
-#Task 1
+#Task1
 class Country:
     def add(self, other_country):
         combined_name = self.name + ' ' + other_country.name
@@ -21,7 +21,7 @@ print(bosnia_herzegovina.population)
 print(bosnia_herzegovina.name)       
 
 
-#Task 2
+#Task2
 class Country:
     def __init__(self, name, population):
         self.name = name
@@ -39,7 +39,7 @@ bosnia_herzegovina = bosnia + herzegovina
 print(bosnia_herzegovina.population)  
 print(bosnia_herzegovina.name)        
 
-#Task 3 
+#Task3 
 class Car:
     def __init__(self, brand, model, year):
         self.brand = brand
@@ -76,7 +76,7 @@ except ValueError as e:
 
 
 
-#Task 4
+#Task4
 class Robot:
     def __init__(self, orientation='up', position_x=0, position_y=0):
         self.orientation = orientation
